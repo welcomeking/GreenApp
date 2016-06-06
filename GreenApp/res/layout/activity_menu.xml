@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+         android:layout_marginTop="180sp"
+         android:paddingRight="14sp">
+
+       
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:paddingBottom="0sp"
+            android:background="@android:color/transparent"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/three" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+         android:layout_marginTop="5sp"
+         android:paddingRight="14sp"
+    >
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/four" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/five" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/six" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="5sp"
+        android:paddingRight="14sp"
+    >
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/seven" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/eight" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:paddingBottom="0sp"
+            android:paddingLeft="0sp"
+            android:paddingRight="0sp"
+            android:paddingTop="0sp"
+            android:scaleType="fitEnd"
+            android:src="@drawable/nine" />
+
+    </LinearLayout>
+
+</LinearLayout>

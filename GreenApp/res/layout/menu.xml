@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_messages"
+    android:orientation="vertical" >
+    
+     <ListView
+        android:id="@+id/list_view_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:transcriptMode="alwaysScroll" 
+        android:stackFromBottom="true">
+    </ListView>
+
+ <LinearLayout
+     android:id="@+id/icons"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageSmiling"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/smiling" />
+
+        <ImageView
+            android:id="@+id/imageLaughing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/laughing" />
+
+        <ImageView
+            android:id="@+id/imageSad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/sad" />
+
+        <ImageView
+            android:id="@+id/imageAngry"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/angry" />
+
+        <ImageView
+            android:id="@+id/imageTeasing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/teasing" />
+
+        <ImageView
+            android:id="@+id/imageInLove"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:src="@drawable/inlove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMsgCompose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="-3sp"
+        android:weightSum="3" >
+
+        <ImageButton
+            android:id="@+id/next3"
+           android:layout_width="50sp"
+            android:layout_height="fill_parent"
+            android:onClick="onclick"
+            android:background="#e8e8e8"
+            android:scaleType="fitXY"
+            android:src="@drawable/e92dd1bb8c5ccc50c12f8410df1f59f2" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="195dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.50"
+            android:background="#e8e8e8"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:textColor="#626262" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#1e6258"
+            android:onClick="onButtonClick"
+            android:text="send"
+            android:textColor="@color/white" />
+
+	</LinearLayout>
+	
+</LinearLayout>

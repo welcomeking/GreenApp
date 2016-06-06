@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84e184"
+    tools:context="${packageName}.${activityClass}" >
+     
+    
+              
+      <Button
+    	     android:id="@+id/save12"
+    	     android:layout_width="wrap_content"
+    	     android:layout_height="wrap_content"
+    	     android:text="SAVE"
+			android:background="#1e6258"
+    	      android:textColor="@color/white" />
+  
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/save12"
+        android:textColor="@color/white" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/save12"
+        android:layout_alignBottom="@+id/save12"
+        android:layout_centerHorizontal="true"
+        android:text="List Of Light Bulbs"
+        android:textColor="@color/white" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
